@@ -12,7 +12,6 @@
 
 typedef NS_ENUM(NSInteger, kFYCellType){
     kFYCellTypeDefault = 0,
-    kFYCellTypeDemo 
 };
 
 @protocol FYDataSourceDelegate <NSObject>

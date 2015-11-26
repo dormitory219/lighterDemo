@@ -33,9 +33,6 @@
         self.cellType       = cellType;
         
         if (cellType == kFYCellTypeDefault) {
-            _baseCell = [[FYBaseCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:_cellIdentifier];
-        }
-        else if (cellType == kFYCellTypeDemo) {
             _baseCell = [[DemoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
         }
     }
@@ -59,12 +56,6 @@
     FYBaseCell *cell = (FYBaseCell *)[tableView dequeueReusableCellWithIdentifier:_cellIdentifier];
     
     if (_cellType == kFYCellTypeDefault) {
-        if (!cell) {
-            cell = [[FYBaseCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:_cellIdentifier];
-        }
-    }
-    
-    else if (_cellType == kFYCellTypeDemo){
         if (!cell) {
             cell = [[DemoCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:_cellIdentifier];
         }

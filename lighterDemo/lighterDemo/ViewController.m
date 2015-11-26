@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    FYDataSource *dataSource = [[FYDataSource alloc] initWithItems:@[@"0",@"1",@"2",@"3",@"4"] cellIdentifier:@"testCell" cellType:kFYCellTypeDemo];
+    FYDataSource *dataSource = [[FYDataSource alloc] initWithItems:@[@"0",@"1",@"2",@"3",@"4"] cellIdentifier:@"testCell" cellType:kFYCellTypeDefault];
     dataSource.delegate = self;
     self.mTableView.dataSource = dataSource;
     self.mTableView.delegate = dataSource;
