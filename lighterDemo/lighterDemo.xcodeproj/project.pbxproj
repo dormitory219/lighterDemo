@@ -546,6 +546,7 @@
 				1819E9D01C06D83700BD04BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1819E9D11C06D83700BD04BB /* Build configuration list for PBXNativeTarget "lighterDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				1819E9D31C06D83700BD04BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1819E9D41C06D83700BD04BB /* Build configuration list for PBXNativeTarget "lighterDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +564,7 @@
 				1819E9D61C06D83700BD04BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

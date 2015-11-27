@@ -23,12 +23,16 @@
 }
 
 
-- (void)configureCellContentWithItem:(id)item{ }
+- (void)configureCellContentWithItem:(id)item{
+    
+}
 
 - (CGFloat)configureCellHeightWithItem:(id)item{
     return kBaseCellHeight;
 }
 
-- (void)didSelectedWithItem:(id)item{ }
+- (void)didSelectedWithItem:(id)item{
+    NSLog(@"******点击了cell--item:%@******",item);
+}
 
 @end
